@@ -58,7 +58,6 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fira Sans', sans-serif;
-  background: rgb(223, 92, 92);
 }
 
 .button-container{
