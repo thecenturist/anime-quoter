@@ -19,4 +19,4 @@ jobs:
       - run: npm install
       - run: npm run build --if-present
       - run: sudo rm -rf /var/www/html/*
-      - run: sudo echo "Hello" > /var/www/html/index.html
+      - run: echo "Hello" > /var/www/html/index.html
