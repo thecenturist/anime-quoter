@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <Header title="The Anime Quoter Version Dev"/>
+    <Header title="The Anime Quoter"/>
     <Quote :quote="quote"/>
     <div class="button-container">
       <button @click="getQuote">Generate</button>
@@ -58,7 +58,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fira Sans', sans-serif;
-  background: #000;
+  background: rgb(223, 92, 92);
 }
 
 .button-container{
