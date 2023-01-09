@@ -19,5 +19,5 @@ jobs:
       - run: npm install
       - run: npm run build --if-present
       - run: sudo apt install apache2 -y
-      - run: sudo cp -r /home/ubuntu/actions-runner/_work/anime-quoter/anime-quoter/dist/* /var/www/dev/
+      - run: sudo cp -r /home/ubuntu/actions-runner/_work/anime-quoter/anime-quoter/dist/* /var/www/staging/
       - run: sudo systemctl restart apache2
