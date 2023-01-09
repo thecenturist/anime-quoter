@@ -60,10 +60,6 @@ export default {
   font-family: 'Fira Sans', sans-serif;
 }
 
-h1 {
-  color: cornsilk;
-}
-
 body {
   background-color: peru;
 }

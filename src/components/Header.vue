@@ -18,7 +18,7 @@ header {
 
   h1 {
     font-size: 32px;
-    color: var(--dark);
+    color: cornsilk;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
