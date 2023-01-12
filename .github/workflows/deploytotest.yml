@@ -27,6 +27,7 @@ jobs:
 
   Update-Web-Directory:
     runs-on: self-hosted
+    needs: ["Build"]
     environment:
       name: Staging
       url: https://staging-animequoter.thecenturist.com
