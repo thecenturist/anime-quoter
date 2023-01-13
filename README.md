@@ -5,6 +5,11 @@ Anime Quoter is a web application built using the VueJS framework for it's front
 
 The application allows a user to generate a quote from an Anime Television show or Manja by clicking a button, it also keeps a history of previously generated quote per session.
 
+## Application Environments
+Production - https://animequoter.thecenturist.com
+Staging - https://staging-animequoter.thecenturist.com
+Development - https://dev-animequoter.thecenturist.com
+
 ## Continous Integration / Continuous Delivery (CI/CD)
 Using Github Actions with a configured Github Runner service on a self-hosted AWS EC2 instance, 
 
