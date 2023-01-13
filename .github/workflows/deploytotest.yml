@@ -12,9 +12,6 @@ jobs:
 
   Build:
     runs-on: self-hosted
-    environment:
-      name: Staging
-      url: https://staging-animequoter.thecenturist.com
     strategy:
       matrix:
         node-version: [18.x]
