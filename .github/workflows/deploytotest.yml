@@ -29,8 +29,8 @@ jobs:
     runs-on: self-hosted
     needs: ["Build"]
     environment:
-      name: Staging
-      url: https://staging-animequoter.thecenturist.com
+      name: Development
+      url: https://dev-animequoter.thecenturist.com
     steps:
       - run: sudo cp -r /home/ubuntu/actions-runner/_work/anime-quoter/anime-quoter/dist/* ${{ secrets.PUBLIC_HTML_DIR }}
       - run: sudo systemctl restart apache2
