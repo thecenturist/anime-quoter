@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <Header title="Dev Anime Quoter"/>
+    <Header title="Stage Anime Quoter"/>
     <Quote :quote="quote"/>
     <div class="button-container">
       <button @click="getQuote">Generate</button>
