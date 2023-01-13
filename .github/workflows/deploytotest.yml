@@ -25,12 +25,22 @@ jobs:
       - run: npm install
       - run: npm run build --if-present
 
-  Update-Web-Directory:
+  Staging:
     runs-on: self-hosted
     needs: ["Build"]
     environment:
-      name: Development
-      url: https://dev-animequoter.thecenturist.com
+      name: Staging
+      url: https://staging-animequoter.thecenturist.com
+    steps:
+      - run: sudo cp -r /home/ubuntu/actions-runner/_work/anime-quoter/anime-quoter/dist/* ${{ secrets.PUBLIC_HTML_DIR }}
+      - run: sudo systemctl restart apache2
+
+  Deploy:
+    runs-on: self-hosted
+    needs: ["Staging"]
+    environment:
+      name: Production
+      url: https://anime-quoter.thecenturist.com
     steps:
       - run: sudo cp -r /home/ubuntu/actions-runner/_work/anime-quoter/anime-quoter/dist/* ${{ secrets.PUBLIC_HTML_DIR }}
       - run: sudo systemctl restart apache2
