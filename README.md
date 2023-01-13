@@ -11,7 +11,7 @@ Staging - https://staging-animequoter.thecenturist.com
 Development - https://dev-animequoter.thecenturist.com
 
 ## Continous Integration / Continuous Delivery (CI/CD)
-Using Github Actions with a configured Github Runner service on a self-hosted AWS EC2 instance, 
+Using Github Actions with a configured Github Runner service on a self-hosted AWS EC2 instance, the workflow is built to deploy new changes to the repository to the Staging URL, then Production after receiving approval.
 
 ## Project setup
 ```
