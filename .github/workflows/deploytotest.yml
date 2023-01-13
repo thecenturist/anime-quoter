@@ -29,7 +29,7 @@ jobs:
     runs-on: self-hosted
     needs: ["Build"]
     environment:
-      name: Dev
+      name: Development
       url: https://dev-animequoter.thecenturist.com
     steps:
       - run: sudo cp -r /home/ubuntu/actions-runner/_work/anime-quoter/anime-quoter/dist/* ${{ secrets.PUBLIC_HTML_DIR }}
