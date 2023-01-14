@@ -61,7 +61,7 @@ export default {
 }
 
 body {
-  background-color: peru;
+  background-color: cornflowerblue;
 }
 
 .button-container{
