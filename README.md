@@ -1,4 +1,4 @@
-# Anime Quoter
+# [Anime Quoter] (https://animequoter.thecenturist.com)
 
 ## Overview
 Anime Quoter is a web application built using the VueJS framework for it's frontend, and NodeJS API calls to the AnimeChan API for it's backend. This project was created in order to showcase Deployment skills and training I've been learning about using Github Actions for CI/CD.
@@ -7,7 +7,9 @@ The application allows a user to generate a quote from an Anime Television show 
 
 ## Application Environments
 Production - https://animequoter.thecenturist.com
+
 Staging - https://staging-animequoter.thecenturist.com
+
 Development - https://dev-animequoter.thecenturist.com
 
 ## Continous Integration / Continuous Delivery (CI/CD)
@@ -21,4 +23,4 @@ npm run serve
 ```
 
 ## Credits
-Anime Quoter Youtube [Tutorial](https://www.youtube.com/watch?v=QfgxPiaUrms)
+Quote Generator Youtube [Tutorial](https://www.youtube.com/watch?v=QfgxPiaUrms)
